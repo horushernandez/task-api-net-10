@@ -1,4 +1,5 @@
 name: Build
+
 on:
   pull_request:
     branches:
@@ -25,7 +26,7 @@ on:
           - normal
           - detailed
 env: 
-  DOTNET_VERSION: '10.0.x'
+  DOTNET_VERSION: '10.0.102'
   BUILD_CONFIGURATION: 'Release'
 jobs:
     build:
